@@ -49,3 +49,10 @@ plt.plot(X,linear_reg_2.predict(poly_reg.fit_transform(X)),color='blue')
 #more visualisation
 plt.scatter(X,Y,color='red')
 plt.plot(X_grid,linear_reg_2.predict(poly_reg.fit_transform(X_grid)),color='blue')
+
+
+#prediction using linear regression
+linear_reg.predict(6.5)      #enter the inpu here
+
+#predict using poly
+linear_reg_2.predict(poly_reg.fit_transform(6.5))
